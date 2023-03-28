@@ -1,0 +1,85 @@
+/**
+ * This code was developed by positive235(https://github.com/positive235) with the help of ChatGPT,
+ * created by OpenAI.
+ * 
+ * Developer: positive235(https://github.com/positive235)
+ * Debugging: Performed by positive235(https://github.com/positive235)
+ * Code Modifications: Made by positive235(https://github.com/positive235)
+ * 
+ * Source: ChatGPT(https://chat.openai.com/chat)
+ * Assistance provided by ChatGPT on: 2023-03-27
+ */
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #f0f2f5;
+}
+
+.App {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+
+button {
+    margin: 0 5px;
+    padding: 6px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(221, 226, 164);
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: rgb(206, 211, 143);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color:rgb(156, 92, 194);
+}
+
+@media screen and (max-width: 414px) {
+    input {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    input {
+        width: 65%;
+    }
+}
