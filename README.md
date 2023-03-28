@@ -25,7 +25,7 @@ Assistance provided by ChatGPT:
 
 # Getting Started 
 
-- You can try a Demo Website or, 
+- You can try at https://positive235.github.io/todolist-ts-react/ or, 
 - You can clone this repository and run it with these commands:
     1. `npm install`
     2. `npm start`
